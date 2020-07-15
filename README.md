@@ -14,7 +14,10 @@ They consist of 4 different content types:
  This marks a section of scripting in the game engine.
 - -- <<★ActAssetBlob  
  This marks a section in which asset properties are set.
+- -- <<★CutsceneBlob  
+ This marks a section in which a scripted cutscene is played.
 
+Most scripts have japanese comments or backup text explaining the content.
 ## Audio
 #### PlaySe
 *This function plays a sound file as a sound effect.*
@@ -32,6 +35,17 @@ Syntax:
 - fadeInTime: float (time in seconds)
 - volume: float (0%-100% => 0-1.0)
 - volumeSymbol: string (?)
+
+#### StopSe
+*This function stops a currently playing sound effect.*
+
+Example:
+```lua
+StopSe:{"symbol":"SE_EVT_PERIPPAA_FLY_03_LP","fadeInTime":1.5}
+```
+Syntax:
+- symbol: string (internal sound name)
+- fadeInTime: float (time in seconds)
 
 #### PlayBgm
 *This function plays a sound file as background music (BGM).*
