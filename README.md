@@ -86,3 +86,34 @@ ScreenFade:{"moveCameraParam":{"distanceMode":0,"toCamParam":{"refSymbol":"","di
 ```
 
 Syntax: WIP
+
+#### SetCam
+*Sets camera parameters.*
+
+Example:
+
+```lua
+CAMERA::{
+    0::SetCam:{"cameraParam":{"refSymbol":"","directData":{"fovType":0,"fieldOfView":40.0,"near":0.10000000149011612,"far":1000.0,"rotateType":100,"pos":{"x":-36.47456359863281,"y":1.4158525466918946,"z":0.30426549911499026},"rotateQ":{"x":-0.014602495357394219,"y":0.9118948578834534,"z":-0.032567769289016727,"w":-0.40886905789375307},"rotateAtPos":{"x":0.0,"y":0.0,"z":1.0},"rotateAtRollDeg":0.0}}}
+  }
+```
+Syntax:
+- cameraParam: string
+ - refSymbol: string
+ - directData: string
+   - fovType: number
+   - fieldOfView: number (FOV)
+   - near: float
+   - far: float
+   - rotateType: number
+   - pos: string
+     - x: float
+	  - y: float
+	  - z: float
+	- rotateQ: string
+	    - x: float
+	    - y: float
+	    - z: float
+	    - w: float
+	- rotateAtRollDeg: float
+
