@@ -6,14 +6,14 @@ romfs/Data/StreamingAssets/native_data/scripts
 ```
 
 They consist of 4 different content types:
-- -- <<★ScenePartitionBlob
-This marks a section at the beginning of a .lua setting scene properties.
+- -- <<★ScenePartitionBlob  
+ This marks a section at the beginning of a .lua setting scene properties.
 - -- <<★LuaBlob  
-This marks a section of raw LUA code.
-- -- <<★ActCommandBlob
-This marks a section of scripting in the game engine.
-- -- <<★ActAssetBlob
-This marks a section in which asset properties are set.
+ This marks a section of raw LUA code.
+- -- <<★ActCommandBlob  
+ This marks a section of scripting in the game engine.
+- -- <<★ActAssetBlob  
+ This marks a section in which asset properties are set.
 
 ### Audio
 #### PlaySe
