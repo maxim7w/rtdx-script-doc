@@ -1,7 +1,7 @@
 # PMD: RTDX - Scripting Documentation
 
 Internal scripts are stored as .lua source code and can be opened with any text editor. They are stored in:
-```c
+```javascript
 romfs/Data/StreamingAssets/native_data/scripts
 ```
 
