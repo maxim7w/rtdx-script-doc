@@ -15,7 +15,7 @@ They consist of 4 different content types:
 - -- <<★ActAssetBlob  
  This marks a section in which asset properties are set.
 
-### Audio
+## Audio
 #### PlaySe
 *This function plays a sound file as a sound effect.*
 
