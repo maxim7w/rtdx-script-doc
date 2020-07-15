@@ -54,6 +54,7 @@ Example:
 ```lua
 PlayBgm:{"symbol":"BGM_EVE_SEPARATION_01","fadeInTime":0.0,"isLoop":true,"channel":1,"volume":1.0,"volumeSymbol":"DEFAULT"}
 ```
+
 Plays the sound file BGM_EVE_SEPERATION_01 with no fade-in with 100% volume, and it is looping.
 
 Syntax matches the syntax of PlaySe.
@@ -64,7 +65,8 @@ Syntax matches the syntax of PlaySe.
 *Makes a character visible or invisible.*
 
 Example:
-````lua
+
+```lua
   CH:HERO:{
     0::SetVisible:{"visible":false}
   }
@@ -78,7 +80,9 @@ Syntax:
 *Makes the screen fade to a specific position.*
 
 Example:
+
 ```lua
 ScreenFade:{"moveCameraParam":{"distanceMode":0,"toCamParam":{"refSymbol":"","directData":{"fovType":105,"fieldOfView":60.0,"near":0.10000000149011612,"far":1000.0,"rotateType":100,"pos":{"x":0.0,"y":0.0,"z":0.0},"rotateQ":{"x":0.0,"y":0.0,"z":0.0,"w":0.0},"rotateAtPos":{"x":0.0,"y":0.0,"z":1.0},"rotateAtRollDeg":0.0}}},"isWait":true,"fadeMode":100,"fadeLayer":0,"fadeTime":0.5,"fadeTimeSymbol":"","fadeColorStart":{"r":0.0,"g":0.0,"b":0.0,"a":0.0},"fadeColorEnd":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}
 ```
+
 Syntax: WIP
