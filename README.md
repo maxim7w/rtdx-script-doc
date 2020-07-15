@@ -117,3 +117,18 @@ Syntax:
 	    - w: float
 	- rotateAtRollDeg: float
 
+## Dialogues
+
+#### LuaWINDOW.DrawFace
+*Draw a Pokémon portrait face.*
+
+Example:
+```lua
+LuaWINDOW.DrawFace(FACE_POS.RIGHT_X, FACE_POS.RIGHT_Y, LuaSymAct("RIZAADON"), FACE_TYPE.HAPPY)
+```
+Syntax:
+- FACE_POS.direction_X 
+ - for example RIGHT_X, or LEFT_X
+- FACE_POS.direction_Y
+- LuaSymAct: string (internal Pokémon name or HERO+PARTNER)
+- FACE_TYPE: 
