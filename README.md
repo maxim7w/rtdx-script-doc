@@ -128,7 +128,8 @@ LuaWINDOW.DrawFace(FACE_POS.RIGHT_X, FACE_POS.RIGHT_Y, LuaSymAct("RIZAADON"), FA
 ```
 Syntax:
 - FACE_POS.direction_X 
- - for example RIGHT_X, or LEFT_X
+  - either RIGHT_X, or LEFT_X
 - FACE_POS.direction_Y
+  - either RIGHT_Y or LEFT_Y 
 - LuaSymAct: string (internal Pokémon name or HERO+PARTNER)
 - FACE_TYPE: 
