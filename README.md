@@ -133,3 +133,5 @@ Syntax:
   - either RIGHT_Y or LEFT_Y 
 - LuaSymAct: string (internal Pokémon name or HERO+PARTNER)
 - FACE_TYPE: 
+  - following types are valid:
+  - NONE, NORMAL, EMOTION, DECIDE, THINK, HAPPY, SURPRISE, TEARS, SAD, PAIN, TEARS, CATCHBREATH, GLADNESS, SPECIAL1, SPECIAL2, SPECIAL...
