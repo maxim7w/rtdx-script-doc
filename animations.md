@@ -19,6 +19,7 @@ Valid animations (for PlayMotion):
 ### Prefix ev100
 - ev100_letsgoloop
 - ev100_waitshop
+- ev100_turnshop
 
 ### Prefix ev101
 - ev101_orooro
@@ -46,9 +47,21 @@ Valid animations (for PlayMotion):
 - ev104_waitlp
 - ev104_kiai
 - ev104_kiailoop
+- ev104_kamae
 
 ### Prefix ev105
 - ev105_awateru
+
+### Prefix ev107
+- ev107_hetari
+- ev107_hetariloop
+- ev107_hetaritachi
+
+### Prefix ev108
+- ev108_kamae
+
+### Prefix ev109
+- ev109_kamae
 
 ### Prefix ev110
 - ev110_keikai
@@ -68,6 +81,7 @@ Valid animations (for PlayMotion):
 - attack
 - attack_round
 - battle
+- damage
 - speak
 - endure
 - letsgo
