@@ -40,3 +40,16 @@ public const FacialType DAMAGE = 20;
 public const FacialType DOWN = 21;
 public const FacialType NUM = 22;
 ```
+### MouthType for SetFace
+```csharp
+public const MouthType NORMAL = 0;
+public const MouthType ANGRY = 1;
+public const MouthType HAPPY = 2;
+public const MouthType PAIN = 3;
+public const MouthType SAD = 4;
+public const MouthType SURPRISE = 5;
+public const MouthType RESERVE00 = 6;
+public const MouthType RESERVE01 = 7;
+public const MouthType NONE = 8;
+public const MouthType NUM = 9;
+```
