@@ -1,4 +1,47 @@
-## Types for SetFace
+## Emotions for LuaWINDOW.DrawFace
+
+### FACE_TYPE list
+```csharp
+public const FACE_TYPE ANGRY = 8;
+public const FACE_TYPE CATCHBREATH = 20;
+public const FACE_TYPE CRY = 2;
+public const FACE_TYPE DECIDE = 14;
+public const FACE_TYPE FAINT = 18;
+public const FACE_TYPE EMOTION = 16;
+public const FACE_TYPE GENTLE = 4;
+public const FACE_TYPE GLADNESS = 15;
+public const FACE_TYPE HAPPY = 6;
+public const FACE_TYPE NONE = 0;
+public const FACE_TYPE NORMAL = 5;
+public const FACE_TYPE OFF = 1;
+public const FACE_TYPE PAIN = 7;
+public const FACE_TYPE RELIEF = 19;
+public const FACE_TYPE SAD = 10;
+public const FACE_TYPE SHOUT = 12;
+public const FACE_TYPE SNEEZE = 3;
+public const FACE_TYPE SPECIAL01 = 21;]
+public const FACE_TYPE SPECIAL02 = 22;
+public const FACE_TYPE SPECIAL03 = 23;
+public const FACE_TYPE SPECIAL04 = 24;
+public const FACE_TYPE SPECIAL05 = 25;
+public const FACE_TYPE SPECIAL06 = 26;
+public const FACE_TYPE SPECIAL07 = 27;
+public const FACE_TYPE SPECIAL08 = 28;
+public const FACE_TYPE SPECIAL09 = 29;
+public const FACE_TYPE SPECIAL10 = 30;
+public const FACE_TYPE SPECIAL11 = 31;
+public const FACE_TYPE SPECIAL12 = 32;
+public const FACE_TYPE SPECIAL13 = 33;
+public const FACE_TYPE SPECIAL14 = 34;
+public const FACE_TYPE SPECIAL15 = 35;
+public const FACE_TYPE SPECIAL16 = 36;
+public const FACE_TYPE SURPRISE = 17;
+public const FACE_TYPE TEARS = 13;
+public const FACE_TYPE THINK = 9;
+public const FACE_TYPE WEEP = 11;
+```
+
+## Types for SetFace (ActCommandBlob)
 
 ### EyeType for SetFace
 ```csharp
